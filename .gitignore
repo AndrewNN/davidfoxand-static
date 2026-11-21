@@ -1,3 +1,26 @@
 .DS_Store
 *.md
 nginx-*.conf
+
+
+# macOS
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
